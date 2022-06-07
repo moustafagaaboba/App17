@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App17.Activation.ActivationHandler&lt;T&gt;">
+    <Position X="1" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAEIAAAAA=</HashCode>
+      <FileName>Activation\ActivationHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="App17.Activation.DefaultActivationHandler">
+    <Position X="1" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEIAAAAA=</HashCode>
+      <FileName>Activation\DefaultActivationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Behaviors.NavigationViewHeaderBehavior">
+    <Position X="22" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAFEUAAAAEAAACoBIABAgAAAAAAABABCAAIAA=</HashCode>
+      <FileName>Behaviors\NavigationViewHeaderBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Helpers.EnumToBooleanConverter" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\EnumToBooleanConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Helpers.FrameExtensions">
+    <Position X="20.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\FrameExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Helpers.NavigationHelper">
+    <Position X="23.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Helpers.ResourceExtensions">
+    <Position X="27.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ResourceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Helpers.SettingsStorageExtensions">
+    <Position X="29" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAACAAAAwIgQAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>Helpers\SettingsStorageExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Helpers.TitleBarHelper">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAACAAAAAAAAAAAAAACCEAAAAAAQA=</HashCode>
+      <FileName>Helpers\TitleBarHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Models.LocalSettingsOptions">
+    <Position X="26" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LocalSettingsOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Services.ActivationService" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAQAAAAAAIAAAAAQAAAAAAAAAAAgAAAAAAgAI=</HashCode>
+      <FileName>Services\ActivationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.LocalSettingsServicePackaged" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\LocalSettingsServicePackaged.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.LocalSettingsServiceUnpackaged" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAEAQAAIAAAgABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\LocalSettingsServiceUnpackaged.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.NavigationService" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAgAAAAACAAAIAAAAAIAEAAAAQgAABABE=</HashCode>
+      <FileName>Services\NavigationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.NavigationViewService" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAARAAMAAAAgAACAACAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Services\NavigationViewService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.PageService" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PageService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Services.ThemeSelectorService" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAAICQAAAAAAAAAAAIAAAAAAAgAAAACAA=</HashCode>
+      <FileName>Services\ThemeSelectorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.ViewModels.MainViewModel">
+    <Position X="12.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.ViewModels.SettingsViewModel">
+    <Position X="9.5" Y="11.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAEAAAAAAAAABEAAAAAAAAAAKAAAAAM=</HashCode>
+      <FileName>ViewModels\SettingsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.ViewModels.ShellViewModel">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAgAICAIAAAAAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>ViewModels\ShellViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App17.Views.MainPage" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Views.SettingsPage" BaseTypeListCollapsed="true">
+    <Position X="2" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SettingsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Views.ShellPage" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAQAAAAEAAAAAAAgQAAgAAAAAA=</HashCode>
+      <FileName>Views\ShellPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.App" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAABAAAAEA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="App17.Core.Helpers.Json">
+    <Position X="18.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="App17.Core.Services.FileService" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient">
+    <Position X="11.75" Y="8.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.UI.Xaml.Controls.Page">
+    <Position X="4" Y="8.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="App17.Activation.IActivationHandler">
+    <Position X="1" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Activation\IActivationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.IActivationService">
+    <Position X="3.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Services\IActivationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.ILocalSettingsService">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Services\ILocalSettingsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.INavigationService">
+    <Position X="7.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAQAAABAAE=</HashCode>
+      <FileName>Contracts\Services\INavigationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.INavigationViewService">
+    <Position X="19.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAARAAAAAAAAAAAAACAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Contracts\Services\INavigationViewService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.IPageService">
+    <Position X="21.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Services\IPageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.Services.IThemeSelectorService">
+    <Position X="10" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAACQAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Services\IThemeSelectorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Contracts.ViewModels.INavigationAware">
+    <Position X="32.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ViewModels\INavigationAware.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="App17.Core.Contracts.Services.IFileService">
+    <Position X="30.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="App17.Behaviors.NavigationViewHeaderMode">
+    <Position X="24.75" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Behaviors\NavigationViewHeaderMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
