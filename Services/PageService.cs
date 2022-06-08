@@ -18,6 +18,7 @@ public class PageService : IPageService
 
     public PageService()
     {
+        // configure ViewModels with their designated Views
         Configure<MainViewModel, MainPage>();
         Configure<SettingsViewModel, SettingsPage>();
     }
@@ -42,12 +43,14 @@ public class PageService : IPageService
     {
         lock (_pages)
         {
+            // don't use this condition if you are planning to have multiple  in Navigatoin Pane pointing to same View
             var key = typeof(VM).FullName;
             if (_pages.ContainsKey(key))
             {
                 throw new ArgumentException($"The key {key} is already configured in PageService");
             }
 
+            // technically this condition will never happen unless you won't use previous condition
             var type = typeof(V);
             if (_pages.Any(p => p.Value == type))
             {

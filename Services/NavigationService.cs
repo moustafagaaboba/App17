@@ -38,7 +38,13 @@ public class NavigationService : INavigationService
         }
     }
 
-    public bool CanGoBack => Frame.CanGoBack;
+    public bool CanGoBack
+    {
+        get
+        {
+            return Frame.CanGoBack;
+        }
+    }
 
     public NavigationService(IPageService pageService)
     {

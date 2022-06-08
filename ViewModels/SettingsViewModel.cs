@@ -15,20 +15,33 @@ namespace App17.ViewModels;
 public class SettingsViewModel : ObservableRecipient
 {
     private readonly IThemeSelectorService _themeSelectorService;
-    private ElementTheme _elementTheme;
 
+    private ElementTheme _elementTheme;
     public ElementTheme ElementTheme
     {
-        get => _elementTheme;
-        set => SetProperty(ref _elementTheme, value);
+        get
+        {
+            return _elementTheme;
+        }
+
+        set
+        {
+            SetProperty(ref _elementTheme, value);
+        }
     }
 
     private string _versionDescription;
-
     public string VersionDescription
     {
-        get => _versionDescription;
-        set => SetProperty(ref _versionDescription, value);
+        get
+        {
+            return _versionDescription;
+        }
+
+        set
+        {
+            SetProperty(ref _versionDescription, value);
+        }
     }
 
     private ICommand _switchThemeCommand;
@@ -49,7 +62,6 @@ public class SettingsViewModel : ObservableRecipient
                         }
                     });
             }
-
             return _switchThemeCommand;
         }
     }
