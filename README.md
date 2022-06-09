@@ -1,4 +1,6 @@
-﻿*Recommended Markdown viewer: [Markdown Editor VS Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor).*
+﻿https://subscription-rc.packtpub.com/book/programming/9781800208667/7
+
+*Recommended Markdown viewer: [Markdown Editor VS Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor).*
 
 This project was created using [Microsoft Template Studio](https://aka.ms/templatestudio).
 
